@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addrecipe.css">
+
+</head>
+<body>
+    <div class="mt-4 addChar">
+
+        <form id="recipeForm" class="mb-4">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name"  name="name" placeholder="Add a name for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="prepTimeMinutes" class="form-label">Preparation Time</label>
+            <input type="text" class="form-control" id="prepTimeMinutes" name="preparation" placeholder=" Add a species for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="cookTimeMinutes" class="form-label">Cooking Time</label>
+            <input type="text" class="form-control" id="cookTimeMinutes"  name="Cookingtime"  placeholder=" Add a gender for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="servings" class="form-label">Serves</label>
+            <input type="text" class="form-control" id="servings"  name="serves" placeholder=" Add a status for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="difficulty" class="form-label">Difficulty</label>
+            <input type="text" class="form-control" id="difficulty"  name="difficulty" placeholder=" Add an origin for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="cuisine" class="form-label">Cuisine</label>
+            <input type="text" class="form-control" id="cuisine"  name="image" placeholder=" Add an cuisine for the character you want to add">
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label">Image URL</label>
+            <input type="url" class="form-control" id="image"  name="image" placeholder=" Add an image URL for the character you want to add">
+          </div>
+          <button type="submit" class="btn btn-primary">Add Recipe</button>
+        </form>
+      </div>
+    
+      <!-- Character Cards  -->
+      <div id="cardRecipe" class="d-flex flex-wrap"></div>
+      </div>
+    
+</body>
+<script src="addrecipe1.js"></script>
+</html>

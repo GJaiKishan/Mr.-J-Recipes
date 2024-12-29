@@ -1,0 +1,233 @@
+
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EFF1E4;
+} */
+
+/* Navbar Styles */
+.navbar {
+    background-color:#0B545D
+    ;
+    color: #EFF1E4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+
+.navbar a {
+    color: #EFF1E4;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Pizza Image Gallery */
+/* .pizza-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pizza-gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+.pizza-gallery {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out the items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 20px; /* Add some padding around the gallery */
+}
+
+.pizza-gallery div {
+    text-align: center; /* Center the text and images */
+    margin: 5px; /* Add some margin between items */
+}
+
+.pizza-gallery img {
+    width: 150px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: round the corners of the images */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.pizza-gallery img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+    border: 2px solid #0B545D;
+}
+
+.pizza-gallery p {
+    color: black; /* Deep Teal color for text */
+    font-size: 18px; /* Set font size */
+    margin-top: 10px; /* Space between image and text */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.pizza-gallery p:hover {
+    color: #EFF1E4; /* Change text color on hover */
+    background-color: #0B545D; /* Add background color on hover */
+    padding: 5px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Round the corners of the background */
+    border: 2px solid #0B545D;
+}
+/* Main Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EFF1E4
+    ; /* Ivory Mist as background */
+    color: #0B545D; /* Deep Teal as text color */
+}
+
+.main-container {
+    display: flex; /* Arrange child divs side by side */
+    justify-content: space-between; /* Space between the two sections */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between the sections */
+    padding: 20px;
+}
+
+.ebook-container, .recipe-container {
+    width: 48%; /* Ensure both sections take equal width */
+    padding: 20px;
+    background-color: #EFF1E4; /* Ivory Mist background */
+    border: 2px solid #0B545D; /* Deep Teal border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.ebook-container h2, .recipe-container h3 {
+    color: #0B545D; /* Deep Teal color for headings */
+    text-align: center; /* Center align headings */
+}
+
+.ebook-container input {
+    width: calc(100% - 20px); /* Adjust input width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0B545D; /* Deep Teal border */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.ebook-container button {
+    background-color: #0B545D; /* Deep Teal button */
+    color: #EFF1E4; /* Ivory Mist text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ebook-container button:hover {
+    background-color: #083A41; /* Darker shade of teal for hover */
+}
+
+.recipe-container p {
+    line-height: 1.6; /* Improve readability */
+    text-align: justify; /* Align text for better visuals */
+}
+  
+/* Footer Styles */
+.footer {
+        background-color: #0B545D; /* Deep Teal background for the footer */
+        color: #EFF1E4; /* Ivory Mist text color */
+        text-align: center; /* Center align the text */
+        padding: 10px 0;
+        font-size: 20px;
+        border-top: 2px solid #EFF1E4; /* Add a top border for separation */
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+    }
+
+.footer p {
+    margin: 10;
+}
+
+/* #Dynamiccards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%; */
+/* } */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.card{
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #333; /* Border for the image */
+
+/* .card h2 {
+    margin: 16px 0 8px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.card .details {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+.card ul {
+    list-style-type: disc;
+    margin: 8px 0 16px 20px;
+    padding: 0;
+}
+.card ol {
+    margin: 8px 0 16px 20px;
+    padding: 0;
+}
+.card .tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+.card .tag {
+    background-color: #e1f5fe;
+    color: #0277bd;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.Recipe1 {
+width: 20%;
+
+}  */

@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0B545D; /* DEEP TEAL */
+    background: url('https://img.freepik.com/premium-vector/flying-fresh-vegetables-concept-healthy-food-background_61043-8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: rgba(11, 84, 93, 0.9); /* DEEP TEAL with slight transparency */
+    color: #EFF1E4; /* IVORY MIST */
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* About Container */
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(239, 241, 228, 0.7); /* Semi-transparent IVORY MIST */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for contrast */
+    border: 2px solid #0B545D;
+    
+    
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #0B545D; /* DEEP TEAL */
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    line-height: 3.8;
+    color: black; /* Transparent DEEP TEAL text */
+}
+
+section ul {
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    list-style-type: disc;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links (optional, if you add navigation) */
+a {
+    color: #0B545D; /* DEEP TEAL */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

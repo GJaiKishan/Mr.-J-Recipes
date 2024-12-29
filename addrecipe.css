@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF1E4; /* Ivory Mist */
+    color: #0B545D; /* Deep Teal */
+}
+
+/* Form Container */
+.addChar {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White */
+    border: 1px solid #0B545D;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Label */
+.form-label {
+    font-weight: bold;
+    color: #0B545D;
+}
+
+/* Form Inputs */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border: 1px solid #0B545D;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #EFF1E4; /* Ivory Mist */
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #0B545D;
+    box-shadow: 0 0 5px rgba(11, 84, 93, 0.5);
+}
+
+/* Submit Button */
+.btn-primary {
+    display: inline-block;
+    background-color: #0B545D; /* Deep Teal */
+    color: #EFF1E4; /* Ivory Mist */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #083A43; /* Darker Deep Teal */
+}
+
+/* Character Cards */
+#cardRecipe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FFFFFF; /* White */
+    border: 1px solid #0B545D;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #0B545D;
+}
+
+.card-content {
+    padding: 15px;
+    color: #0B545D;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.card-description {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .addChar {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
